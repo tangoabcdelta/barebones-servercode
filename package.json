@@ -1,0 +1,19 @@
+{
+  "name": "ServerCodeWithBabel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.dev.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "export NODE_ENV=\"development\" && babel server.dev.js -d dest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4"
+  }
+}
